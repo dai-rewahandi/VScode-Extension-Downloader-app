@@ -9,5 +9,6 @@ his app helps you easily download extensions from the Visual Studio Code Marketp
 [MIT](https://github.com/dai-rewahandi/VScode-Extension-Downloader-app/blob/main/LICENSE)
 
 ## Demo
+![alt text](Doc/Screen-Recording-ezgif.com-video-to-gif-converter.gif)
 ![Demo](./Doc/SCR-20250419-srcf.png)
 ![Demo](./Doc/SCR-20250419-srfa.png)
