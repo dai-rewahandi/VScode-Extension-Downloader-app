@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="./src/main.style.js"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="style.css">
+        <title>VSCode Extension</title>
+    </head>
+    <body class="px-4 dark:bg-[#1E1E1E] bg-white">
+        <header class="mt-8 flex w-full gap-2">
+            <div class="flex justify-between dark:text-white text-gray-800">
+                <input class="w-[70%] h-8 rounded-md px-2 dark:bg-[#161515] bg-gray-200" type="text" id="input_url" placeholder="URL"/>
+                <input class="w-[30%] h-8 rounded-md ml-2 px-2 dark:bg-[#161515] bg-gray-200" type="text" id="input_version" placeholder="Version">
+            </div>
+                <button class="rounded-md bg-green-600 text-white dark:border dark:border-gray-700 w-12 h-8" id="button">Get</button>
+        </header>
+        <main> 
+            <ul class="list-none flex flex-col-reverse" id="list">
+            </ul>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

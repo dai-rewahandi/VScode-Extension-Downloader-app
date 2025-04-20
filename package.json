@@ -1,0 +1,34 @@
+{
+    "name": "vscode-extension-downloader",
+    "productName": "VSCode Extension Downloader",
+    "version": "1.0.0",
+    "description": "Visual Studio Code",
+    "main": "app.js",
+    "author": "dai",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder",
+        "build:all": "electron-builder --mac --win --linux"
+    },
+    "build": {
+        "icon": "src/icon",
+        "appId": "com.vscode.extension.downloader",
+        "productName": "VSCode Extension Downloader",
+        "mac": {
+            "category": "public.app-category.productivity",
+            "target": "dmg"
+        },
+        "win": {
+            "target": "nsis"
+        },
+        "linux": {
+            "category": "Utility",
+            "target": "AppImage"
+        }
+    },
+    "devDependencies": {
+        "electron-builder": "^26.0.12"
+    }
+}
